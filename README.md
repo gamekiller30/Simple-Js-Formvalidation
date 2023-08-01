@@ -1,8 +1,8 @@
-# Simple-Js-Formvalidation
+Simple-Js-Formvalidation
 
 How to use?
 
-1. Import the Library into your Project like so: 
+Import the Library into your Project like so: 
 
 if you have it in same dir:
 
@@ -12,32 +12,32 @@ in different dir:
 
 import {MinLength, CheckMail, CheckPassword, CheckPass2} from "./YOURDIRECTORY/validate.js";
 
-2. How to call a Function?
+How to call a Function?
 
 
 Four Functions to call: MinLength() , CheckMail() , CheckPassword() , CheckPassword2()
 
 
-### The User has to input n amount of characters
+The User has to input n amount of characters
 
 MinLength(yourtargetinput , appendarea for error code, placeholder value of your input, length input needs);
 
-### The User has to input a certain character into his input
+The User has to input a certain character into his input
 
 CheckMail(yourtargetinput,appendarea for error code, placeholder value of your input, character user needs to input);
 
 
-### The User has to input n amount of characters into Password Field
+The User has to input n amount of characters into Password Field
 
 CheckPassword(yourtargetinput , appendarea for error code, placeholder value of your input, length input needs);
 
 
-### The User has to input n amount of characters into Password Field
+ The User has to input n amount of characters into Password Field
 
 CheckPassword2(yourtargetinput,placeholder value of your input, input value of the input you want to check the password with,  appendarea for error code, input you want to check if the password is matching);
 
 
-3. Example Calls:
+ Example Calls:
 
 Each Function returns either true or false
 
